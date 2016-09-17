@@ -1,0 +1,19 @@
+## Event Net for Freifunk Hessen / Rhein Main Meetup
+## September until October 2016
+asn: 64886
+	tech-c:
+		- noc@ffm.freifunk.net
+    
+networks:
+	ipv4:
+		- 10.49.0.0/20
+		- 151.216.48.0/20
+	ipv6:
+		- fd45:2666:f952::/48
+bgp:
+	ffffmEvent1
+		ipv4: 10.207.0.29
+		ipv6: fec0::a:cf:0:1d
+	ffffmEvent2
+		ipv4: 10.207.0.44
+		ipv6: fec0::a:cf:0:2c
